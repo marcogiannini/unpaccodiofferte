@@ -106,7 +106,7 @@ def process_text(text: str) -> tuple[str, int]:
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Messaggio di benvenuto."""
     await update.message.reply_text(
-        "👋 Ciao! Sono il tuo bot per i link referral Amazon.\n\n"
+        "👋 Ciao! Con questo bot potrai supportare Marco's Box acquistando su Amazon aggiungendo il mio codice referral\n\n"
         "📌 Come funziono:\n"
         "• Inviami un messaggio contenente uno o più link Amazon\n"
         "• Ti rispondo con gli stessi link, ma con il tuo codice referral aggiunto\n\n"
