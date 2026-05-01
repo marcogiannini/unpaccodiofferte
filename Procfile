@@ -1,0 +1,1 @@
+worker: python amazon_referral_bot.py
