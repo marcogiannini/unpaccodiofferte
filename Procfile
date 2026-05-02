@@ -1,1 +1,1 @@
-worker: python amazon_referral_bot.py
+worker: python unpaccodiofferte.py
